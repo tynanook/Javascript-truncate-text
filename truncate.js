@@ -4,7 +4,7 @@
 /* ============================================================= */
 /*    Declarations                                              */
 /* =========================================================== */
-var originalText = "There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.";
+var originalText = "There are two hard things in Computer Science: Cache invalidation, naming things, and off-by-one errors.";
 var wordLimit = 8;
 var charLimit = 80;
 var ellipseText;
