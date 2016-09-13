@@ -1,0 +1,89 @@
+body {
+    background-color: ghostwhite;
+    margin: 0;
+    padding-top: 20px;
+    position: relative;
+}
+
+html {
+    background-color: ghostwhite;
+    max-width: 90%;
+}
+
+form {
+    max-width: 95%;
+    background-color: gainsboro;
+}
+
+html,
+form {
+    font-family: arial, georgia, times, serif;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+#Sent-Complete,
+#Sent-Truncated,
+#numOfWords,
+#numOfChars {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.the-fieldset {
+    padding: 20px;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+legend {
+    font-size: 1.3em;
+    padding: 0 10px;
+}
+
+.top-label {
+    font-size: 1.1em;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: -5px;
+}
+
+#btnTruncate {
+    margin: 20px 0 0 0;
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background-color: #a8a8a8;
+    color: #2a2a2a;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+#btnTruncate:hover {
+    background-color: #adadad;
+    color: black;
+}
+
+#byWords,
+#byChars {
+    margin-left: 30px;
+    position: relative;
+    top: -3px;
+}
+
+#numOfWords,
+#numOfChars {
+    margin-left: 10px;
+    width: 80px;
+}
+
+#the-data {
+    margin-left: 30px;
+}

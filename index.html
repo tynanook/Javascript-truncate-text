@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Arrays & Functions Assignment</title>
+    <meta name="description" content="Tool to truncated sentence.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Arrays &amp; Functions Assignment</h1>
+    <br>
+    <div class="container-form">
+        <form name="truncate" id="truncate" action="/later" method="post">
+            <div class="the-fieldset" id="main">
+                <fieldset>
+                    <legend>Truncate a Sentence</legend>
+                    <label class="top-label" for="Sentence">Complete Sentence</label>
+                    <br>
+                    <textarea name="Sent-Complete" id="Sent-Complete" rows="6" cols="100" required>There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.</textarea>
+                    <br>
+                    <br>
+                    <label class="top-label">Truncate Options</label>
+                    <br>
+                    <input type="radio" name="byWords" value="byWords" id="byWords" onclick="onClickWords()" checked />
+                    <label class="left-label" for="byWords">Word Limit</label>
+                    <input type="number" value=9 id="numOfWords" />
+                    <input type="radio" name="byChars" value="byChars" id="byChars" onclick="onClickChars()" />
+                    <label class="left-label" for="byChars">Character Limit</label>
+                    <input type="number" value=90 id="numOfChars" />
+                    <br>
+                    <br>
+                    <label class="top-label" for="Sentence">Truncated Sentence</label>
+                    <br>
+                    <textarea name="Sent-Truncated" id="Sent-Truncated" rows="6" cols="100">
+                    </textarea>
+                    <br>
+                    <input type="button" id="btnTruncate" value="Truncate" onclick="onClickTruncate()" />
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    <div id="result-data">
+        <h2>Parameter and Result Breakdown:</h2>
+        <div id="the-data"></div>
+    </div>
+
+    <script type="text/javascript" src="truncate.js"></script>
+</body>
+
+</html>
